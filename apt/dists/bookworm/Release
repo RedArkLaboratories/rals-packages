@@ -4,7 +4,7 @@ Codename: bookworm
 Architectures: amd64 arm64
 Components: main
 Description: RALS monitoring agent packages
-Date: Mon, 08 Sep 2025 09:45:17 UTC
+Date: Mon, 08 Sep 2025 09:45:56 UTC
 MD5Sum:
  2f6332ab19b1d9b888ce704b14516193 783 main/binary-amd64/Packages
 SHA1:
@@ -18,8 +18,8 @@ SHA1:
 SHA256:
  eb5110a01b6c854a173cbfbf91ee0ad3b8638b2d9484be84370c14cf64e15a65 644 main/binary-arm64/Packages
 MD5Sum:
- bfa9758a5a873eb0727969c0e87bd190 833 Release.gpg
+ da202f3ed7850c5eb24c2e7e330f899d 833 Release.gpg
 SHA1:
- 3143f2e97c7580d5e6f18cff7ce2eadb7daee12a 833 Release.gpg
+ f4e337fcf7376c6dc614a13e5b5a4d80aa4f3643 833 Release.gpg
 SHA256:
- 3e996c2683c4a71a66bd009634896f31e9fb92be435b514c4e550ff44e6db084 833 Release.gpg
+ 4eff128463afe59b50d05bf33af668547966479b7a89a950eee7995560276cf3 833 Release.gpg

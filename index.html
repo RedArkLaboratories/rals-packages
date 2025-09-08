@@ -1,8 +1,66 @@
-<!doctype html>
-<meta charset="utf-8" />
-<title>RALS Packages</title>
-<h1>RALS Packages</h1>
-<ul>
-  <li><a href="debian/">Debian/Ubuntu (.deb)</a></li>
-  <li><a href="rpm/x86_64/">RHEL/CentOS (.rpm)</a></li>
-</ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RALS Packages</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        .repo-section { margin: 20px 0; padding: 20px; border: 1px solid #ddd; border-radius: 5px; }
+        .install-command { background: #f5f5f5; padding: 10px; border-radius: 3px; font-family: monospace; }
+        h1 { color: #333; }
+        h2 { color: #666; }
+        a { color: #007bff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>RALS Packages</h1>
+        <p>RALS monitoring agent packages for various Linux distributions.</p>
+        
+        <div class="repo-section">
+            <h2>Debian/Ubuntu (.deb)</h2>
+            <p>Install RALS Agent on Debian and Ubuntu systems:</p>
+            <div class="install-command">
+                curl -fsSL https://repo.rals.space/KEY.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/rals-space.gpg<br>
+                echo "deb [arch=amd64,arm64] https://repo.rals.space/apt/ focal main" | sudo tee /etc/apt/sources.list.d/rals-space.list<br>
+                sudo apt update && sudo apt install rals-agent
+            </div>
+            <p><a href="apt/">Browse APT repository</a></p>
+        </div>
+        
+        <div class="repo-section">
+            <h2>RHEL/CentOS/Fedora (.rpm)</h2>
+            <p>Install RALS Agent on RHEL, CentOS, and Fedora systems:</p>
+            <div class="install-command">
+                sudo rpm --import https://repo.rals.space/RPM-GPG-KEY-rals-space<br>
+                sudo tee /etc/yum.repos.d/rals-space.repo << EOF<br>
+                [rals-space]<br>
+                name=RALS Space<br>
+                baseurl=https://repo.rals.space/rpm/rhel-8/\$basearch/<br>
+                enabled=1<br>
+                gpgcheck=1<br>
+                gpgkey=https://repo.rals.space/RPM-GPG-KEY-rals-space<br>
+                EOF<br>
+                sudo dnf install rals-agent
+            </div>
+            <p><a href="rpm/">Browse RPM repository</a></p>
+        </div>
+        
+        <div class="repo-section">
+            <h2>Quick Install</h2>
+            <p>For automatic OS detection and installation:</p>
+            <div class="install-command">
+                curl -fsSL https://raw.githubusercontent.com/red-c/mon.rals.space/main/scripts/quick-install.sh | bash
+            </div>
+        </div>
+        
+        <div class="repo-section">
+            <h2>Documentation</h2>
+            <p><a href="docs/installation-guide.md">Complete Installation Guide</a></p>
+        </div>
+    </div>
+</body>
+</html>

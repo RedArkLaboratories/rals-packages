@@ -1,0 +1,21 @@
+Package: rals-agent
+Version: 0.2.1
+Architecture: arm64
+Maintainer: RedArk Laboratories <admin@rals.space>
+Installed-Size: 3664
+Depends: systemd, ca-certificates
+Description: RALS monitoring agent that pushes metrics to Zabbix trapper
+ RALS Agent is a lightweight monitoring agent that collects system metrics
+ and sends them to a Zabbix trapper for centralized monitoring.
+ .
+ Features:
+  - System resource monitoring (CPU, memory, disk, network)
+  - Zabbix trapper integration
+  - Lightweight and efficient
+  - Systemd integration with automatic scheduling
+Filename: pool/main/rals-agent_0.2.1-1_arm64.deb
+Size: 0
+MD5sum: 0
+SHA1: 0
+SHA256: 0
+

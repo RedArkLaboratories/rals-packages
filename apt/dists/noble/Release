@@ -4,7 +4,7 @@ Codename: noble
 Architectures: amd64 arm64
 Components: main
 Description: RALS monitoring agent packages
-Date: 月, 08  9月 2025 08:55:09 UTC
+Date: Mon, 08 Sep 2025 09:44:24 UTC
 MD5Sum:
  2f6332ab19b1d9b888ce704b14516193 783 main/binary-amd64/Packages
 SHA1:
@@ -17,3 +17,9 @@ SHA1:
  0f91bfbd700e84a613bd711fec9ade12dfa44cea 644 main/binary-arm64/Packages
 SHA256:
  eb5110a01b6c854a173cbfbf91ee0ad3b8638b2d9484be84370c14cf64e15a65 644 main/binary-arm64/Packages
+MD5Sum:
+ 94fd115210cb6371b437475d1c0999ac 833 Release.gpg
+SHA1:
+ 6f31f3b4dab345720bc57fef70dea46787291242 833 Release.gpg
+SHA256:
+ dadbee248f4117c3f91f676ca09f9aa3652a74db0e86533dae180ee35b4afe6a 833 Release.gpg

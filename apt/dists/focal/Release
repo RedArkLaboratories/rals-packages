@@ -4,4 +4,22 @@ Codename: focal
 Architectures: amd64 arm64
 Components: main
 Description: RALS monitoring agent packages
-Date: 月, 08  9月 2025 07:47:45 UTC
+Date: 月, 08  9月 2025 08:44:25 UTC
+MD5Sum:
+ 2f6332ab19b1d9b888ce704b14516193 783 main/binary-amd64/Packages
+SHA1:
+ 5520397c4eb29024efe73de8bb4da609400fdaf2 783 main/binary-amd64/Packages
+SHA256:
+ a965224fbf5f4283de8f7474713ca1e00cbe9fca4cf3dfd3932a4b795d380e0d 783 main/binary-amd64/Packages
+MD5Sum:
+ a673dcf88ced79264d1afb84ddcc8418 644 main/binary-arm64/Packages
+SHA1:
+ 0f91bfbd700e84a613bd711fec9ade12dfa44cea 644 main/binary-arm64/Packages
+SHA256:
+ eb5110a01b6c854a173cbfbf91ee0ad3b8638b2d9484be84370c14cf64e15a65 644 main/binary-arm64/Packages
+MD5Sum:
+ 27f8b0d5e92f0d305408040bf41da7fa 833 Release.gpg
+SHA1:
+ 073b021d92767c3ac2476a94fff78302acba4403 833 Release.gpg
+SHA256:
+ f40ea120809210054a177285f74f7ee6b2f4160dbf509ab612dd90416f45eb2d 833 Release.gpg

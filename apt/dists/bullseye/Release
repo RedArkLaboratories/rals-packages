@@ -4,7 +4,7 @@ Codename: bullseye
 Architectures: amd64 arm64
 Components: main
 Description: RALS monitoring agent packages
-Date: Mon, 08 Sep 2025 09:44:23 UTC
+Date: Mon, 08 Sep 2025 09:45:17 UTC
 MD5Sum:
  2f6332ab19b1d9b888ce704b14516193 783 main/binary-amd64/Packages
 SHA1:
@@ -18,8 +18,8 @@ SHA1:
 SHA256:
  eb5110a01b6c854a173cbfbf91ee0ad3b8638b2d9484be84370c14cf64e15a65 644 main/binary-arm64/Packages
 MD5Sum:
- 9db2f895cc5da48849305c137cdf0aa4 833 Release.gpg
+ dc73646e947dc651b5246453e98a0f2b 833 Release.gpg
 SHA1:
- d52a7c54dd1a3aaec226cb60d806659e960b3c4b 833 Release.gpg
+ 314eabc4eb53ac952e447801455b19db6baf18c4 833 Release.gpg
 SHA256:
- 7f0e2cd427b1a7c1585b71ac1c97c2351f45088e9076d105c4809d2409264d6f 833 Release.gpg
+ cb5850a5c84bce287fd909b1c82fb82b96c5a6b7202a981373bfa82312041dd7 833 Release.gpg

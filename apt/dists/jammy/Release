@@ -4,7 +4,7 @@ Codename: jammy
 Architectures: amd64 arm64
 Components: main
 Description: RALS monitoring agent packages
-Date: Mon, 08 Sep 2025 09:44:23 UTC
+Date: Mon, 08 Sep 2025 09:45:17 UTC
 MD5Sum:
  2f6332ab19b1d9b888ce704b14516193 783 main/binary-amd64/Packages
 SHA1:
@@ -18,8 +18,8 @@ SHA1:
 SHA256:
  eb5110a01b6c854a173cbfbf91ee0ad3b8638b2d9484be84370c14cf64e15a65 644 main/binary-arm64/Packages
 MD5Sum:
- e0381478f8682fbcd384ac5dc97c6bfa 833 Release.gpg
+ 4963ca97499f53067e647649b78afefe 833 Release.gpg
 SHA1:
- 8d2d60123db308588c28022170f3c29ea428259b 833 Release.gpg
+ 773c7e1b84c3f2cd369cfa7520fea165f283f05a 833 Release.gpg
 SHA256:
- fa330ec53c4946193bc23fabf23bc05bf8310c872d0c834f5a2079f2bc4f85f2 833 Release.gpg
+ 35f9289902062ab10cc07310af6c20108135f1baa19439b6b6845ad410cabf86 833 Release.gpg

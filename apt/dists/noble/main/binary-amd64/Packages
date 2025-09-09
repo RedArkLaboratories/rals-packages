@@ -4,7 +4,7 @@ Architecture: amd64
 Maintainer: RedArk Laboratories <admin@rals.space>
 Installed-Size: 3032
 Depends: ca-certificates, systemd
-Filename: apt/pool/main/rals-agent_0.2.1-1_amd64.deb
+Filename: pool/main/rals-agent_0.2.1-1_amd64.deb
 Size: 1173948
 MD5sum: 99da041d7af0cd3cc3526f6e381a2221
 SHA1: 861ee5a06ecbc22d2f397297f89b2d4c6093100e

@@ -17,13 +17,13 @@ Package: rals-agent
 Version: 0.6.0-1
 Architecture: amd64
 Maintainer: RedArk Laboratories <admin@rals.space>
-Installed-Size: 4064
+Installed-Size: 4087
 Depends: ca-certificates, systemd
 Filename: pool/main/rals-agent_0.6.0-1_amd64.deb
-Size: 1244032
-MD5sum: d0c4917953e068890ec18296dfb731dc
-SHA1: baab6afe34db4e6f23ee34926cd9fe3daaceae13
-SHA256: 98e509d704fe8df658a7b035a43a74a4695458ba643b760bb80019adc710cd0f
+Size: 1245788
+MD5sum: c90976985e6a461929f8330139fab44f
+SHA1: df9e29f3784cfee030639579541abaef5366c8bd
+SHA256: ae71e0f27c75a8e3a11cdac8e44cd47a2b728c77c9a2738e19d9c2b6ea90f259
 Priority: optional
 Description: RALS monitoring agent. Collects system metrics and pushes them to rals-mon via
  gRPC.
